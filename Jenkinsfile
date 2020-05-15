@@ -3,12 +3,12 @@ node {
     echo 'Gathering code from version control'
   }
   stage('Build') {
-    echo 'Building....'
+    echo 'Building...'
   }
   stage('Test') {
-    echo 'Testing....'
+    echo 'Testing...'
   }
   stage('Deploy') {
-    echo 'Deploying....'
+    echo 'Deploying...'
   }
 }
